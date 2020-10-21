@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string-array name="list_names">
+        <item>11111111</item>
+        <item>22222222</item>
+        <item>33333333</item>
+        <item>44444444</item>
+        <item>55555555</item>
+        <item>66666666</item>
+        <item>77777777</item>
+        <item>88888888</item>
+        <item>99999999</item>
+    </string-array>
+
+</resources>
