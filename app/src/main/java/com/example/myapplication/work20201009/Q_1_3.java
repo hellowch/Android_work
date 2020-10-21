@@ -8,16 +8,15 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.example.myapplication.R;
 
-public class Question_03 extends AppCompatActivity {
+public class Q_1_3 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main3);
+        setContentView(R.layout.activity_q_1_3);
 
         ListView list_main = (ListView)findViewById(R.id.list_main);
 
@@ -46,7 +45,7 @@ public class Question_03 extends AppCompatActivity {
 
     public void click03(View v){
         Intent intent = new Intent();
-        intent.setAction("activity4");
+        intent.setAction("activity_1_4");
         startActivity(intent);
     }
 }

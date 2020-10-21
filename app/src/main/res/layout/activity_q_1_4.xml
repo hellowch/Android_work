@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".work20201009.Question_04">
+    tools:context=".work20201009.Q_1_4">
 
     <Button
         android:id="@+id/reset"

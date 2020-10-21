@@ -1,12 +1,11 @@
 package com.example.myapplication.work20201009;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
-import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -18,7 +17,7 @@ import com.example.myapplication.R;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class Question_04 extends AppCompatActivity {
+public class Q_1_4 extends AppCompatActivity {
     private Thread thread;
     private Handler handler;  //异步消息处理器
     private TextView tvTime;
@@ -30,7 +29,7 @@ public class Question_04 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main4);
+        setContentView(R.layout.activity_q_1_4);
 
         tvTime = findViewById(R.id.tv_1);
         sdf = new SimpleDateFormat("hh:mm:ss");
@@ -87,6 +86,5 @@ public class Question_04 extends AppCompatActivity {
 
         Toast.makeText(getApplicationContext(),"重置成功",Toast.LENGTH_LONG).show();
     }
-
 
  }

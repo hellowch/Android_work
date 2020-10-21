@@ -11,12 +11,12 @@ import android.widget.TextView;
 
 import com.example.myapplication.R;
 
-public class Question_01 extends AppCompatActivity {
+public class Q_1_1 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_q_1_1);
     }
 
     public void sayHellow(View v){
@@ -47,7 +47,7 @@ public class Question_01 extends AppCompatActivity {
 
     public void click01(View v){
         Intent intent = new Intent();
-        intent.setAction("activity2");
+        intent.setAction("activity_1_2");
         startActivity(intent);
     }
 }

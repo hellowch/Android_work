@@ -9,37 +9,74 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Menu"></activity>
-        <activity android:name=".work20201009.Question_04">
-            <intent-filter>
-                <action android:name="activity4" />
 
+        <!--        ////////////////////////////////////////////////////-->
+        <activity android:name=".work20201017.Q_2_5">
+            <intent-filter>
+                <action android:name="activity_2_5" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".work20201009.Question_03">
+        <activity android:name=".work20201017.Q_2_4">
             <intent-filter>
-                <action android:name="activity3" />
+                <action android:name="activity_2_4" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".work20201017.Q_2_3">
+            <intent-filter>
+                <action android:name="activity_2_3" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".work20201017.Q_2_2">
+            <intent-filter>
+                <action android:name="activity_2_2" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".work20201017.Q_2_1">
+            <intent-filter>
+                <action android:name="activity_2_1" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
 
+        <!--        ////////////////////////////////////////////////////-->
+        <activity android:name=".work20201009.Q_1_4">
+            <intent-filter>
+                <action android:name="activity_1_4" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".work20201009.Q_1_3">
+            <intent-filter>
+                <action android:name="activity_1_3" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity> <!-- .MainActivity2为目标页面的Java文件名称，前面有加点 -->
-        <activity android:name=".work20201009.Question_02">
+        <activity android:name=".work20201009.Q_1_2">
             <intent-filter>
-
                 <!-- 此处的activity2为前面声明的名字 -->
-                <action android:name="activity2" />
-
+                <action android:name="activity_1_2" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".work20201009.Question_01">
+        <activity android:name=".work20201009.Q_1_1">
+            <intent-filter>
+                <action android:name="activity_1_1" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!--        ////////////////////////////////////////////////////-->
+        <activity android:name=".Menu" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
     </application>
 
 </manifest>

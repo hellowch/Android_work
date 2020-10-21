@@ -4,7 +4,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
@@ -12,12 +11,12 @@ import android.widget.TextView;
 
 import com.example.myapplication.R;
 
-public class Question_02 extends AppCompatActivity {
+public class Q_1_2 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main2);
+        setContentView(R.layout.activity_q_1_2);
 
         final RadioGroup sex = (RadioGroup) findViewById(R.id.RadioGroup1);
         //为单选按钮组添加事件监听
@@ -34,7 +33,7 @@ public class Question_02 extends AppCompatActivity {
 
     public void click02(View v){
         Intent intent = new Intent();
-        intent.setAction("activity3");
+        intent.setAction("activity_1_3");
         startActivity(intent);
     }
 }
