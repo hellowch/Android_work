@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/create"
+        android:title="新建"></item>
+    <item
+        android:id="@+id/copy"
+        android:title="复制"></item>
+    <item
+        android:id="@+id/paste"
+        android:title="粘贴"></item>
+    <item
+        android:id="@+id/delete"
+        android:title="删除"></item>
+</menu>
