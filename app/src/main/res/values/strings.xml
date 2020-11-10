@@ -13,4 +13,6 @@
         <item>99999999</item>
     </string-array>
 
+    <string name="hello">Hello World</string>
+
 </resources>
