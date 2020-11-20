@@ -16,6 +16,11 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        <service android:name=".work20201117.Q_4_3_Service">
+            <intent-filter>
+                <action android:name="Q_4_3_Service" />
+            </intent-filter>
+        </service>
         <activity android:name=".work20201117.Q_4_3">
             <intent-filter>
                 <action android:name="activity_4_3" />

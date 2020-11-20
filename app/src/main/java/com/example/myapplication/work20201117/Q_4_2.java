@@ -57,7 +57,7 @@ public class Q_4_2 extends AppCompatActivity {
                 while (true){
                     //让线程  发送消息
                     handler.sendEmptyMessage(1);
-                    Log.d(TAG, "time: "+handler.sendEmptyMessage(1));
+//                    Log.d(TAG, "time: "+handler.sendEmptyMessage(1));
                     try {
                         Thread.sleep(2000);
                     } catch (InterruptedException e) {
@@ -71,10 +71,12 @@ public class Q_4_2 extends AppCompatActivity {
     }
 
     public void bind(View v){
+        //显示TextView
         newTime.setVisibility(View.VISIBLE);
     }
 
     public void noBing(View v){
+        //不显示TextView
         newTime.setVisibility(View.INVISIBLE);
     }
 
