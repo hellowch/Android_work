@@ -31,4 +31,10 @@ public class Menu extends AppCompatActivity {
         intent.setAction("activity_3_0");
         startActivity(intent);
     }
+
+    public void click_menu_04(View v){
+        Intent intent = new Intent();
+        intent.setAction("activity_4_1");
+        startActivity(intent);
+    }
 }
