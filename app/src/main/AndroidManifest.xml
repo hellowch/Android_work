@@ -9,6 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
+        <service android:name=".work20201117.Q_4_4_Service">
+            <intent-filter>
+                <action android:name="Q_4_4_Service" />
+            </intent-filter>
+        </service>
+
         <activity android:name=".work20201117.Q_4_4">
             <intent-filter>
                 <action android:name="activity_4_4" />
@@ -16,11 +23,13 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+
         <service android:name=".work20201117.Q_4_3_Service">
             <intent-filter>
                 <action android:name="Q_4_3_Service" />
             </intent-filter>
         </service>
+
         <activity android:name=".work20201117.Q_4_3">
             <intent-filter>
                 <action android:name="activity_4_3" />
@@ -28,6 +37,13 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+
+        <service android:name=".work20201117.Q_4_2_Service">
+            <intent-filter>
+                <action android:name="Q_4_2_Service" />
+            </intent-filter>
+        </service>
+
         <activity android:name=".work20201117.Q_4_2">
             <intent-filter>
                 <action android:name="activity_4_2" />
@@ -35,11 +51,13 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+
         <service android:name=".work20201117.Q_4_1_Service">
             <intent-filter>
                 <action android:name="Q_4_1_Service" />
             </intent-filter>
         </service>
+
         <activity android:name=".work20201117.Q_4_1">
             <intent-filter>
                 <action android:name="activity_4_1" />

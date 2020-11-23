@@ -34,7 +34,6 @@ public class Q_4_3_Service extends Service {
 
     public String IntCompare(String a, String b){
         int c=0;
-        System.out.println(Integer.parseInt(a) +":"+Integer.parseInt(b));
         if (Integer.parseInt(a) > Integer.parseInt(b)){
             c = Integer.parseInt(a);
         }else {

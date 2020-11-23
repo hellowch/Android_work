@@ -18,4 +18,46 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="191dp"
+        android:text="@string/hello"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"></TextView>
+
+    <Button
+        android:id="@+id/bind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="53dp"
+        android:layout_marginLeft="53dp"
+        android:layout_marginTop="125dp"
+        android:text="远程服务绑定"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/label"></Button>
+
+    <Button
+        android:id="@+id/unbind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="88dp"
+        android:layout_marginLeft="88dp"
+        android:layout_marginTop="125dp"
+        android:text="取消服务绑定"
+        app:layout_constraintStart_toEndOf="@+id/bind"
+        app:layout_constraintTop_toBottomOf="@+id/label"></Button>
+
+    <Button
+        android:id="@+id/compute_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="161dp"
+        android:layout_marginLeft="161dp"
+        android:layout_marginTop="56dp"
+        android:text="加法运算"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/label"></Button>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
