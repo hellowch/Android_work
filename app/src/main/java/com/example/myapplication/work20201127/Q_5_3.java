@@ -85,14 +85,10 @@ public class Q_5_3 extends AppCompatActivity {
                         Log.i("Q_5_3","当前标签是: " + xmlParser.getName());
                         if (xmlParser.getName().equals("person")){
                             //获取该标签中的属性值
-//                            Log.d("Q_5_3",xmlParser.getAttributeName(0) + ":" + xmlParser.getAttributeValue(null,"height"));
-//                            Log.d("Q_5_3",xmlParser.getAttributeName(1) + ":" + xmlParser.getAttributeValue(null,"age"));
-//                            Log.d("Q_5_3",xmlParser.getAttributeName(2) + ":" + xmlParser.getAttributeValue(null,"name"));
-
                             //把值添加进StringBuffer
-                            xmlBuffer.append(xmlParser.getAttributeName(0) + ":" + xmlParser.getAttributeValue(null,"height") + " ");
-                            xmlBuffer.append(xmlParser.getAttributeName(1) + ":" + xmlParser.getAttributeValue(null,"age") + " ");
-                            xmlBuffer.append(xmlParser.getAttributeName(2) + ":" + xmlParser.getAttributeValue(null,"name") + "\n");
+                            xmlBuffer.append(xmlParser.getAttributeName(0) + ":" + xmlParser.getAttributeValue(null,"height") + "  ");
+                            xmlBuffer.append(xmlParser.getAttributeName(1) + ":" + xmlParser.getAttributeValue(null,"age") + "  ");
+                            xmlBuffer.append(xmlParser.getAttributeName(2) + ":" + xmlParser.getAttributeValue(null,"name") + " \n");
                         }
                         break;
                     case XmlPullParser.TEXT:
