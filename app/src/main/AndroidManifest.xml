@@ -9,6 +9,48 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".work20201127.Q_5_5">
+            <intent-filter>
+                <action android:name="activity_5_5" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".work20201127.Q_5_3">
+            <intent-filter>
+                <action android:name="activity_5_3" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".work20201127.Q_5_2_1">
+            <intent-filter>
+                <action android:name="activity_5_2_1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".work20201127.Q_5_2">
+            <intent-filter>
+                <action android:name="activity_5_2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".work20201127.Q_5_1_1">
+            <intent-filter>
+                <action android:name="activity_5_1_1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".work20201127.Q_5_1">
+            <intent-filter>
+                <action android:name="activity_5_1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
 
         <service android:name=".work20201117.Q_4_4_Service">
             <intent-filter>
