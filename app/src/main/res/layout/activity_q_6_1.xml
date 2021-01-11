@@ -6,4 +6,10 @@
     android:layout_height="match_parent"
     tools:context=".work20201225.Q_6_1">
 
+    <com.baidu.mapapi.map.MapView
+        android:id="@+id/bmapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
