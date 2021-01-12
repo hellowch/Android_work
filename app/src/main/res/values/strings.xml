@@ -14,5 +14,7 @@
     </string-array>
 
     <string name="hello">Hello World</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
 
 </resources>
